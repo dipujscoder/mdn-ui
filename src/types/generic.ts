@@ -39,3 +39,9 @@ export const propTypesColors: string[] = [
   "pink",
   "red",
 ];
+
+export type animation = {
+  initial?: object;
+  mount?: object;
+  unmount?: object;
+};

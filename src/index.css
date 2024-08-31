@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/* Accordion  */
+.accordion .accordion-item:not(:first-of-type) {
+    border-top: 0;
+  } 

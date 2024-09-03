@@ -6,6 +6,7 @@ import { Accordion, AccordionItem } from "../../components/Accordions";
 import AccordionHeader from "../../components/Accordions/AccordionHeader";
 import AccordionBody from "../../components/Accordions/AccordionBody";
 import Alert from "../../components/Alert";
+import Card, { CardBody, CardHeader, CardFooter } from "../../components/Card";
 
 type Props = {};
 
@@ -99,6 +100,24 @@ export default function Home({}: Props) {
           <Alert color="pink" close className="mb-2">
             A simple primary alert—check it out!
           </Alert>
+          <hr />
+
+          <Card className="mt-10">
+            <CardHeader>
+              <h2>This is card header</h2>
+            </CardHeader>
+            <CardBody>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Explicabo porro dicta expedita ullam corporis soluta, iusto
+                accusantium? Quo, omnis quasi modi sunt, ullam distinctio
+                voluptatibus officia tempora, debitis culpa vitae.
+              </p>
+            </CardBody>
+            <CardFooter>
+              <h2>This is card footer</h2>
+            </CardFooter>
+          </Card>
         </Container>
       </section>
     </Layout>

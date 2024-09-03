@@ -45,3 +45,5 @@ export type animation = {
   mount?: object;
   unmount?: object;
 };
+
+export type className = string;

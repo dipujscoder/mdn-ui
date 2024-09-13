@@ -17,6 +17,8 @@ export default function Home({}: Props) {
     setOpen(value);
   };
 
+  console.log("open", open);
+
   return (
     <Layout>
       <section className="py-10 border">

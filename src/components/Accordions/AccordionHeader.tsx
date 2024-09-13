@@ -7,13 +7,13 @@ export const AccordionHeader = React.forwardRef<
   HTMLDivElement,
   AccordionHeaderProps
 >(({ children, ...rest }, ref) => {
-  const currentUserContext = useAccordion();
+  const _accordion = useAccordion();
 
-  console.log("currentUserContext", currentUserContext);
+  console.log("dipu", _accordion);
 
   return (
-    <div ref={ref} {...rest} className="accordion-header p-2">
-      {children}
+    <div ref={ref} {...rest} className="accordion-header">
+      <div className="p-2">{children}</div>
     </div>
   );
 });

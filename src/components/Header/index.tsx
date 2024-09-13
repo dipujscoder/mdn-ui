@@ -20,6 +20,9 @@ function Header({}: Props) {
               <li className="px-2">
                 <Link to="/about">About</Link>
               </li>
+              <li className="px-2">
+                <Link to="/contact">Contact</Link>
+              </li>
             </ul>
           </div>
         </div>
